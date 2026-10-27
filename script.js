@@ -10,19 +10,19 @@ const explicaciones = {
         mensajeCorrecto: "¡Correcto! Abrazar, besar en la mejilla o dar la mano NO transmite el VIH.",
         mensajeIncorrecto: "Incorrecto. El VIH NO se transmite por abrazar, dar la mano o compartir espacios cotidianos." },
     p2: { correcta: "verdadero",
-        mensajeCorrecto: "¡Correcto! Con el tratamiento TARGA, las personas con VIH logran una vida plena y saludable.",
+        mensajeCorrecto: "¡Correcto! Con el tratamiento TARGA y sus controles médicos, las personas con VIH logran una vida plena y saludable (el tratamiento controla el virus, no lo cura).",
         mensajeIncorrecto: "Incorrecto. El tratamiento permite controlar el virus, recuperar las defensas y tener una excelente calidad de vida." },
     p3: { correcta: "falso",
         mensajeCorrecto: "¡Correcto! El VIH es el virus y el SIDA es la etapa avanzada de la infección. No son lo mismo.",
         mensajeIncorrecto: "Incorrecto. VIH y SIDA están relacionados, pero representan etapas diferentes." },
     p4: { correcta: "falso",
-        mensajeCorrecto: "¡Correcto! Usar dos condones genera fricción y aumenta el riesgo de ruptura. Se debe usar uno solo, correctamente.",
+        mensajeCorrecto: "¡Correcto! Al usar dos condones se friccionan entre sí y pueden romperse, perdiendo su eficacia. Se debe usar un solo preservativo, de forma correcta, en cada relación.",
         mensajeIncorrecto: "Incorrecto. Al usar dos condones se corre el riesgo de que se rompan por la fricción." },
     p5: { correcta: "falso",
-        mensajeCorrecto: "¡Correcto! El VIH no discrimina orientación sexual, edad ni género. Cualquiera puede contraerlo.",
+        mensajeCorrecto: "¡Correcto! El VIH afecta a cualquier persona, sin importar su orientación sexual; lo que importa es la exposición a fluidos corporales sin protección, tanto en relaciones heterosexuales como homosexuales.",
         mensajeIncorrecto: "Incorrecto. El VIH puede afectar a cualquier persona que no se proteja." },
     p6: { correcta: "falso",
-        mensajeCorrecto: "¡Correcto! Una persona puede verse y sentirse sana y vivir con el virus muchos años sin síntomas.",
+        mensajeCorrecto: "¡Correcto! Una persona puede ser portadora y verse completamente sana durante años; la única forma de saberlo es hacerse la prueba de diagnóstico.",
         mensajeIncorrecto: "Incorrecto. El virus puede ser silencioso; verse sano no descarta el VIH. Solo la prueba lo confirma." }
 };
 

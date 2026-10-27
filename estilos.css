@@ -1,6 +1,6 @@
 /* ========================================
-   VIHDA - ESTILOS CENTRALES GLOBALES
-======================================== */
+ V IHDA - ESTILOS CENTRALES G*LOBALES
+ ======================================== */
 
 :root {
     --rojo: #921f35;
@@ -49,8 +49,8 @@ img {
 }
 
 /* ========================================
-   ENCABEZADO NAV MULTIPÁGINA (MOBILE-FIRST)
-======================================== */
+ E NCABEZADO NAV MULTIPÁGINA *(MOBILE-FIRST)
+ ======================================== */
 
 .encabezado {
     width: 100%;
@@ -108,8 +108,8 @@ img {
 }
 
 /* ========================================
-   ESTILOS DE CONTENIDO Y HERO
-======================================== */
+ E STILOS DE CONTENIDO Y HERO*
+ ======================================== */
 
 .hero {
     padding: 40px 6%;
@@ -199,8 +199,8 @@ img {
 }
 
 /* ========================================
-   CUESTIONARIO Y DETALLES INTERACTIVOS
-======================================== */
+ C UESTIONARIO Y DETALLES INT*ERACTIVOS
+ ======================================== */
 
 .cuestionario {
     display: flex;
@@ -270,8 +270,8 @@ img {
 }
 
 /* ========================================
-   PIE DE PÁGINA
-======================================== */
+ P IE DE PÁGINA              *
+ ======================================== */
 
 .pie {
     padding: 25px 5%;
@@ -285,8 +285,8 @@ img {
 }
 
 /* ========================================
-   DISEÑO PARA PANTALLAS GRANDES (PC)
-======================================== */
+ D ISEÑO PARA PANTALLAS GRAND*ES (PC)
+ ======================================== */
 @media (min-width: 768px) {
     .nav-contenedor {
         flex-direction: row;
@@ -328,9 +328,9 @@ img {
 }
 
 /* ========================================
-   AÑADIDOS: accesibilidad y componentes compartidos
-   (antes estaban repetidos dentro de cada HTML)
-======================================== */
+ A ÑADIDOS: accesibilidad y c*omponentes compartidos
+ (antes estaban repetidos dentro de cada HTML)
+ ======================================== */
 
 .saltar {
     position: absolute;
@@ -493,3 +493,26 @@ a:focus-visible, button:focus-visible {
     html { scroll-behavior: auto; }
     * { transition: none !important; }
 }
+
+/* Referencias e integrantes */
+
+.pie .referencias { text-align: left; max-width: 900px; margin: 8px auto 0; padding-left: 22px; font-size: 12px; color: #cdbcc2; display: flex; flex-direction: column; gap: 4px; }
+.pie .referencias a { color: #f3d6dd; }
+.caja-ayuda ul ul { margin-top: 6px; padding-left: 18px; }
+
+.cita a { font-size: 11px; font-weight: 700; color: var(--rojo); text-decoration: none; margin-left: 2px; }
+.cita a:hover { text-decoration: underline; }
+
+/* Integrantes (portada) */
+.hero .integrantes {
+    margin-top: 20px; padding: 16px 20px; max-width: 480px; text-align: left;
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 12px; font-size: 14px; color: #fff;
+}
+.integrantes-titulo { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; color: #fff !important; }
+.integrantes ul { list-style: none; padding: 0; margin: 0 0 10px; display: flex; flex-direction: column; gap: 3px; }
+.integrantes li::before { content: "• "; }
+.datos-curso { border-top: 1px solid rgba(255,255,255,0.3); padding-top: 10px; display: flex; flex-direction: column; gap: 3px; }
+.datos-curso div { display: flex; gap: 6px; flex-wrap: wrap; }
+.datos-curso dt { font-weight: 700; }
+.datos-curso dd { margin: 0; }
